@@ -1,0 +1,23 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+// pagination
+.page-link {
+  color: blue;
+}
+
+.matchListCard {
+  text-decoration: none;
+  color: #333;
+}
+
+.matchListCard:hover,
+.matchCard:hover {
+  text-decoration: none;
+  box-shadow: 0px 1px 1px 4px rgba(0, 0, 0, 0.2);
+}

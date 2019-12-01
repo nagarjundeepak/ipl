@@ -1,0 +1,44 @@
+{
+  "name": "ipl",
+  "version": "1.0.0",
+  "description": "IPL application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nagarjundeepak/sample.git"
+  },
+  "keywords": [
+    "react",
+    "and",
+    "node"
+  ],
+  "author": "Nagarjun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nagarjundeepak/sample/issues"
+  },
+  "homepage": "https://github.com/nagarjundeepak/sample#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^2.2.0",
+    "mongoose": "^5.7.12",
+    "node-pre-gyp": "^0.14.0",
+    "nodemon": "^2.0.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0"
+  },
+  "proxy": "http://localhost:5000"
+}
